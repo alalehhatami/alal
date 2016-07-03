@@ -1,0 +1,31 @@
+playerA=raw_input("hi,you'r player A.please choose :")
+#while (playerA!="rock" and "paper" and "scissors") :
+ #   print("wrong!its the rock,papare scissor game!!")
+  #  playerA=raw_input("hi,you'r player A.please choose :")
+playerB=raw_input("hi,you'r playerB,please choos :")
+#while (playerB!="rock" and "paper" and "scissors") :
+#    print("wrong!its the rock,papare scissor game!!")
+ #   playerB=raw_input("hi,you'r player B.please choose :")
+if playerA=="rock" :
+    if playerB=="rock":
+        print("you'r even!")
+    if playerB=="paper :" :
+        print("playerB has won")
+    if playerB=="scissors" :
+        print("player A has won")
+if playerA=="paper" :
+    if playerB=="rock":
+        print("PlayerA has won")
+    if playerB=="paper :":
+        print("you're even")
+    if playerB=="scissors" :
+        print("player B has won")
+if playerA=="scissors" :
+    if playerB=="rock":
+        print("paleyer B has won")
+    if playerB=="paper " :
+        print("playerA has won")
+    if playerB=="scissors" :
+        print("you're even")
+
+
